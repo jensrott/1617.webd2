@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+p {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+
+/* het woord 'jr-design' */
+span {
+    color: #FF4500;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #000; 
+}
+
+
+/* javascript tijd opmaken */
+.time {
+
+    text-align: center;
+    font-size: 40px;
+    color: #FF4500;
+    text-shadow: 2px 2px #000;  
+}
+
+body {
+color: #000;
+background-image: url("http://i66.tinypic.com/11v5v9j.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/* fade-in van de welcome-slogan */
+@keyframes fadeIn {
+    from {opacity: 0;}
+}
+
+#welcome_slogan {
+   animation: fadeIn 2s alternate;
+}
+
+
+.title_slogan {
+color: #0077ee;
+font-size: 100px;
+text-align: center;
+margin: 0 auto 0 auto; 
+}
+
+.logo {
+float: left;
+padding: 10px 0;
+height: 100px;
+width: 300px;
+
+
+}
+
+/* dit is de volledige navigatiebar */
+.container { 
+    width: 100%;
+    max-width: 1140px;
+    min-width: 600px;
+    margin:0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;  /* plaats tussen bovenkant en tekst */
+    font-family: "Arimo", sans-serif;   
+
+}
+
+/* de opmaak van de volledige navigatiebar */
+.navigation { 
+list-style: none; /* bolletjes wegwerken */
+padding: 3px 15px;
+float: center;
+background: linear-gradient(#0AB2FA, #0077ee);
+opacity: 0.7; /* transparant maken */
+filter:alpha (opacity=70); /* transparant maken */
+border: 4px solid #000;
+cursor: pointer;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+text-align: '';
+
+
+}
+
+.navigation::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* elke link in de navigatie (vak) */
+.navigation_item {
+background: linear-gradient(#0AB2FA, #0077ee);
+float: right;
+margin-top: 0; 
+margin-right: 0;
+margin-left: 0;
+margin-bottom: 0;
+padding:'';  /* plaats tussen blokjes */
+text-align: ''; 
+
+}
+
+/* de links in de navigatie */
+.navigation_item a {
+color: #f8f8ff;
+display: inline-block; /* ziet er zo beter uit, precies een blok */ 
+text-decoration: none;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 30px;
+position: relative;
+text-align: '';
+}
+
+/* als je over de knop heen gaat */ 
+.navigation_item a:hover { 
+    color: #000;
+}
+
+/* als je de knop indruk */
+.navigation_item a:active {  
+    color: #778899;
+}
+
+
+/* animatie als je over de link gaat */
+.navigation_item a::before {
+  content:'';
+  display: block;
+  height: 5px;
+ 
+  background-color: #373b3f;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 400ms;
+  
+}
+
+.navigation_item a:hover::before {
+width: 100%;
+
+}
+
+header {
+
+  background: #1D1D1D;
+  background: -moz-linear-gradient(#535353, #000);
+  background: -o-linear-gradient(#535353, #000);
+  background: -webkit-linear-gradient(#535353, #000);
+  width: 100%;
+  
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+ .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+/* opmaak van de dropdown menus */ 
+  .dropdown-content-1 {
+    
+    position: absolute;
+    background: #0077ee;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 226px;
+
+  }
+  
+  .dropdown-content-2 {
+    text-align: center;
+    position: absolute;
+    background: #0077ee;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 148px;
+
+  }
+
+
+

@@ -1,0 +1,81 @@
+/* 
+* === opmaak van de footer van de home pagina ===
+ */
+.youtube {
+   
+}
+
+.facebook {
+
+}
+
+.twitter {
+
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(#0AB2FA, #0077ee);
+    margin-top: 500px;
+}
+
+#foot {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+div.social {
+    float: left;
+    margin-top: 20px;
+}
+
+
+a.social {
+    margin-right: 15px;
+}
+
+div.contact {
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+
+label {
+    color: #ffffff;
+}
+
+input.text {
+    height: 30px;
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+textarea.message {
+    height: 100px;
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+}
+
+input.submit {
+    width: 60px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #0AB2FA;
+    border: none;
+    border-radius: 3px; 
+}
+
+input.submit:hover {
+    text-decoration: underline;
+}
+

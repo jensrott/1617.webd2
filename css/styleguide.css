@@ -1,9 +1,145 @@
-/* telt voor alles */
-* {
-    box-sizing: border-box
+/* 
+* === opmaak van de styleguide ===
+ */
+
+
+/* kleuren zijn hsla */
+
+html{
+  /* convert root em(rem) from 16px to 18px */
+  font-size: 62.5%;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+/* De algemene opmaak */
+
+body {
+  line-height: 1.42;
 }
+
+.big_title {
+  border-bottom: solid 8px hsla(198, 96%, 51%, 1);
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-style: normal;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.42;
+  color: hsla(198, 96%, 51%, 1);
+  margin: 25px 0 15px;
+  text-align: center; 
+}
+
+.big_sub_title {
+  border-bottom: solid 8px hsla(213, 55%, 46%, 1);
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.42;
+  color: hsla(213, 55%, 46%, 1);
+  margin: 25px 0 15px; 
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.42;
+  font-size: 1.4rem;
+  margin: 25px 0 15px;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.42;
+  color: hsla(210, 14%, 53%, 1);
+  margin: 25px 0 15px;
+
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: hsla(210, 7%, 23%, 1);
+}
+
+h3 {
+  font-size:
+   
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: hsl(0,0%,0%);
+}
+
+/* Opmaak navigatie bar */
+
+.style_navigation_bar {
+  line-height: 1.42;
+  font-size: 2rem;
+}
+
+.style_navigation_bar_background {
+
+  background: linear-gradient(hsla(198, 96%, 51%, 1),hsla(210, 100%, 47%, 1));
+  /* background: linear-gradient(#0AB2FA, #0077ee); */
+  margin: 25px 0 15px;  
+  font-family: "Arimo", sans-serif";
+}
+
+.style_navigation_bar_links {
+  color: hsla(240, 100%, 99%, 1);
+  margin: 25px 0 15px;  
+  font-family: "Arimo", sans-serif";
+ 
+}
+
+.style_navigation_bar_hover_effect {
+  color: hsla(210, 7%, 23%, 1);
+  margin: 25px 0 15px;  
+  font-family: "Arimo", sans-serif";
+}
+
+.style_navigation_bar_dropdown_menu {
+  color: hsla(210, 100%, 47%, 1);
+  margin: 25px 0 15px;  
+  font-family: "Arimo", sans-serif";
+}
+
+/* Opmaak welcome slogan */
+
+.style_welcome_slogan {
+  line-height: 1.42;
+  font-size: 2rem;
+}
+
+.style_welcome_slogan_background {
+  background: linear-gradient(hsla(0, 0%, 33%, 1),hsl(0,0%,0%));
+  /* background: linear-gradient(#535353, #000); */
+  margin: 25px 0 15px;
+  color: hsla(198, 96%, 51%, 1);
+  font-family:"Arimo", sans-serif";
+}
+
+.style_welcome_slogan_title {
+  color: hsla(210, 100%, 47%, 1);
+  margin: 25px 0 15px;
+  font-family:"Arimo", sans-serif";
+}
+
+.style_welcome_slogan_word {
+  color: hsla(16, 100%, 50%, 1);
+  margin: 25px 0 15px;
+  font-family:"Arimo", sans-serif";
+}
+

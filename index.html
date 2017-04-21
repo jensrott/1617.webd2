@@ -42,56 +42,53 @@
     <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <!-- Stylesheets: Vendors -->
-    <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
+
+    <!--<link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">-->
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">   
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/grid.css">
+    <link rel="stylesheet" media="all" href="css/footer.css">
     
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
    
     </head>
 <body>
- 
-
 <header>
 <div id="strapline">
 	    <div id="welcome_slogan">
-	     <div class = "title_slogan">Welcome to <span>JR - design</span></div>
+	     <div class = "title_slogan">Welcome to <span class = "woord-JR">JR - design</span></div>
 	    </div><!--close welcome_slogan-->
       </div><!--close strapline-->	  
 <div class = "container">
     <nav>
         <ul class="navigation">
             <img src="assets/img/" alt="logo" class = "logo">
-            <li class="navigation_item"><a href="#">Social Media</a>
-
-            <div class = "dropdown-content-1">
-               <ul>
-                <li><a href = "#">TEST</a></li>
-                <li><a href = "#">TEST</a></li>
-                <li><a href = "#">TEST</a></li>
-                <li><a href = "#">TEST</a></li>
-            </ul>
-            </div>
-            </li>
-
             <li class="navigation_item"><a href="#">Contact</a>
 
-            <div class = "dropdown-content-2">
+            <div class = "dropdown-menu-1">
                <ul>
-                <li><a href = "#">TEST</a></li>
-                <li><a href = "#">TEST</a></li>
-                <li><a href = "#">TEST</a></li>
-                <li><a href = "#">TEST</a></li>
+        <li><a href = "contact.html"><span class = "dropdown-content-1">Contact Form</span></a></li>
+        <li><a href = "contact.html"><span class = "dropdown-content-2">Location</span></a></li>
             </ul>
             </div>
             </li>
 
-            <li class="navigation_item"><a href="#">Our Work</a></li>
-            <li class="navigation_item"><a href="#">About us</a></li>
-            <li class="navigation_item"><a href="#">Home</a></li>
+            <li class="navigation_item"><a href="social_media.html">Social Media</a>
+
+            <div class = "dropdown-menu-2">
+               <ul>
+                <li><a href = "#"></a></li>
+                <li><a href = "#"></a></li>
+            </ul>
+            </div>
+            </li>
+
+            <li class="navigation_item"><a href="our_work.html">Our Work</a></li>
+            <li class="navigation_item"><a href="about_us.html">About us</a></li>
+            <li class="navigation_item"><a href="index.html">Home</a></li>
                 
 
         </ul>
@@ -99,9 +96,24 @@
 </div><!--close container-->
 </header>
 
-<p>Hallo dit is een test</p>
+<div class = "sub_title_1">Webdesign voor uw budget</div>
+<!-- <div class = "time"><script src="js/greetings.js"></script></div> -->
+
+<!--Op deze pagina komen ook onze diensten/ aanpak dus alles wat we doen -->
+<h2>Webdesign is niet simpel! Daarom maken wij uw website tegen een accetabele prijs!</h2>
+<h2>What do we do?</h2>
+<div id = "container_detail">
+    <div id = "scroll">
+        <img src = "assets/img/mouse.png" width="100" alt = "scroll">
+    </div>
 
 
+<div id = "content">
+    <div class = "left_box">1</div>
+    <div class = "middle_box">2</div>
+    <div class = "right_box">3</div>
+</div>
+</div>
 
 
 <div class="grid__row">
@@ -110,7 +122,7 @@
     </div>
     <div class="grid__column-3">
         <!--the grid, css in grid.css-->
-<div class = "time"><script src="js/greetings.js"></script></div>
+        hey
     </div>
     <div class="grid__column-3">
        1/4
@@ -145,6 +157,39 @@
     </div>
     
     </div>
+
+<!--the footer-->
+    <footer>
+        <div id = "foot">
+            <div class = "social">
+                <h3>Stay connected</h3>
+
+                <a class = "youtube" href = "http://www.youtube.com"><img src = "assets/img/youtube_logo.png" width="100" height="100"></a>
+                <a class = "facebook" href = "http://www.facebook.com"><img src = "assets/img/facebook_logo.png" width = "100" height = "100"></a>
+                <a class = "twitter" href = "http://www.twitter.com"><img src = "assets/img/twitter_logo.png" width = "100" height="100"></a>
+            </div> 
+
+            <div class = "contact">
+
+                <h3>Contact Us</h3>
+
+                <form class = "contact" name = "form" method = "post">
+                    <label for "name">Email</label><br>
+                    <input class = "text" name = "name" type = "text" />
+                    <br><br>
+
+                    <label for "email">Name</label><br>
+                    <input class = "text" name = "email" type = "text" />
+                    <br><br>
+
+                    <label for "message">Explain</label><br>
+                    <textarea class = "message" name = "message"></textarea>
+                    <br><br>
+
+                    <input class = "submit" name = "submit" type = "submit" value = "Submit" />
+            </div>
+        </div>  
+    </footer>
 
   
 </body>

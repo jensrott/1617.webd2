@@ -82,6 +82,17 @@ p {
   color: hsl(0,0%,0%);
 }
 
+.button_example {
+  text-align: center;
+  color: hsla(236, 40%, 42%, 1);
+  background-color: hsla(241, 34%, 75%, 1);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 75px;
+  height: 27px;
+}
+
 /* Opmaak navigatie bar */
 
 .style_navigation_bar {

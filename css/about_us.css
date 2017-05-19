@@ -1,9 +1,9 @@
 /* kleuren zijn in hex */
 
 p {
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
+    text-align: left;
     color: #000;
 }
 
@@ -15,9 +15,7 @@ body {
 color: #000;
 
 /*achtergrond */
-background-image: url("http://i65.tinypic.com/qzeluq.jpg");
-background-size: cover;
-background-repeat: no-repeat;
+background-color: #626973;
 }
 
 /* dit is de volledige navigatiebar */
@@ -164,3 +162,123 @@ ul li:hover ul li {
 .dropdown-content-2 {
 
 }
+
+.navigation_item a.activepage {
+    color:#EE701F;
+}
+
+
+/* opmaak van het middengedeelte */
+
+span {
+    color: #EE701F;
+    font-weight: bold;
+}
+
+
+
+.who_what_where {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 72px;
+    margin-bottom: 20px;
+
+}
+
+.who_what_where span {
+    border-bottom: #FFFFFF solid 3px;
+    color: white;
+    border-top: #FFFFFF solid 3px;
+}
+
+#content_1 {
+    background-color: #FFFFFF;
+    padding-bottom: 65px; 
+    min-height: 300px;
+    padding-left: 30px;
+}
+
+h2 {
+    text-align: left;
+    color: #778899;   
+}
+
+
+.crown {
+    position: relative;
+    left: 250px;
+    top: 
+}
+
+.king_text {
+    position: relative;
+    font-size: 50px;
+    padding-left: 150;
+}
+
+
+/* opmaak van het onderste gedeelte */
+
+
+#content_2 {
+    background-color: #D6E1F4;
+    padding-bottom: 65px; 
+    min-height: 300px;
+    padding-left: 30px;
+}
+
+
+.the_team {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 72px;
+
+}
+
+
+.circle_left {
+    
+    padding: 25px 25px 25px 25px;
+    background-color: #626973;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 2px solid black;
+    box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
+    margin: 0 auto;
+}
+
+
+.circle_middle {
+    padding: 25px 25px 25px 25px;
+    width:200px;
+    height:200px;
+    position: relative;
+    background-color: #626973;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+
+
+    
+
+}
+
+.circle_right {
+    padding: 25px 25px 25px 25px;
+    width:200px;
+    height:200px;
+    position: relative;
+    background-color: #626973;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+
+}
+
+
+

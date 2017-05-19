@@ -10,10 +10,15 @@ html{
   font-size: 62.5%;
 }
 
-/* De algemene opmaak */
+/* De algemene opmaak/kleuren die we in de website overal gebruiken */
 
 body {
   line-height: 1.42;
+}
+
+.big_headings_website {
+  color: hsla(0, 100%, 100%, 1);
+  font-size: 2rem;
 }
 
 .big_title {
@@ -38,20 +43,21 @@ body {
   color: hsla(213, 55%, 46%, 1);
   margin: 25px 0 15px; 
 }
-
-h2,h3,h4,h5,h6 {
+  /* niet gebruikt in website */
+  h4,h5,h6 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
-  font-size: 1.4rem;
+  font-size: 1.250rem;
   margin: 25px 0 15px;
+  color: hsla(0, 0%, 11%, 1);
 }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif; 
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   font-weight: 500;
   line-height: 1.42;
   color: hsla(210, 14%, 53%, 1);
@@ -60,37 +66,67 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
-  color: hsla(210, 7%, 23%, 1);
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-style: normal;
+  font-size: 1.875rem; 
+  color: hsla(219, 18%, 70%, 1);
+  line-height: 1.42;
+  letter-spacing: -0.5px;
+  
 }
 
 h3 {
-  font-size:
+  
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-style: normal;
+  font-size: 1.6rem;
+  color:  hsla(0, 0%, 11%, 1);
+  margin: 25px 0 15px;
+  line-height: 1.42;
+  letter-spacing: -0.5px;
    
 }
 
-h4 {
-
-}
-
-h5 {
-
-}
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
   color: hsl(0,0%,0%);
+  font-size: 1.250rem;
 }
 
 .button_example {
   text-align: center;
-  color: hsla(236, 40%, 42%, 1);
-  background-color: hsla(241, 34%, 75%, 1);
+  color: hsl(0,0%,0%);
+  background-color: hsla(219, 40%, 59%, 1);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   width: 75px;
   height: 27px;
+}
+
+
+.style_website_background_1 {
+  background-color: hsla(0, 100%, 100%, 1);
+  border: 1px solid hsl(0,0%,0%);
+  padding: 0.5rem;
+  
+}
+
+.style_website_background_2 {
+  background-color: hsla(216, 7%, 71%, 1);
+}
+
+.style_website_background_3 {
+  background-color: hsla(215, 8%, 42%, 1)
+}
+
+.style_website_background_4 {
+  background-color: hsla(218, 58%, 90%, 1)
+}
+
+.style_website_links {
+  color: hsla(23, 86%, 53%, 1);
 }
 
 /* Opmaak navigatie bar */

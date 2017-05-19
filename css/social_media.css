@@ -1,9 +1,8 @@
 /* kleuren zijn in hex */
 
 p {
-    font-size: 50px;
+    font-size: 25px;
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
     color: #000;
 }
 
@@ -12,12 +11,8 @@ div {
 }
 
 body {
-color: #000;
-
 /*achtergrond */
-background-image: url("http://i65.tinypic.com/qzeluq.jpg");
-background-size: cover;
-background-repeat: no-repeat;
+background-color: #626973;
 }
 
 /* dit is de volledige navigatiebar */
@@ -164,3 +159,51 @@ ul li:hover ul li {
 .dropdown-content-2 {
 
 }
+
+
+ /* opmaak van het middengedeelte */ 
+
+
+ #content {
+    background-color: #D6E1F4;
+    padding-bottom: 65px; 
+    min-height: 300px;
+    padding-left: 30px;
+
+ }
+
+.social_media_big {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+.box_1 {
+    background-color: #B0B4BA;
+    align-content: center;
+    
+}
+
+.box_2 {
+    background-color: #B0B4BA;
+    align-content: center;
+    
+}
+.box_3 {
+    background-color: #B0B4BA;
+    align-content: center;
+    
+}
+.box_4 {
+    background-color: #B0B4BA;
+    align-content: center;
+    
+}
+
+
+

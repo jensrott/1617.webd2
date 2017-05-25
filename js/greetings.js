@@ -1,3 +1,5 @@
+// ga ik niet gebruiken in de website
+
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;

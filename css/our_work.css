@@ -50,9 +50,7 @@ body {
 color: #000;
 
 /*achtergrond */
-background-image: url("http://i65.tinypic.com/qzeluq.jpg");
-background-size: cover;
-background-repeat: no-repeat;
+background-color:#626973 ;
 }
 
 /* dit is de volledige navigatiebar */
@@ -198,4 +196,26 @@ ul li:hover ul li {
 
 .dropdown-content-2 {
 
+
 }
+
+.navigation_item a.activepage {
+    color:#EE701F;
+}
+
+
+  /* opmaak van middengedeelte */
+
+  .portfolio {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 74px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  } 
+
+  .portfolio span {
+      color: #FFFFFF;
+      border-top: #FFFFFF solid 3px;
+      border-bottom: #FFFFFF solid 3px;
+  }

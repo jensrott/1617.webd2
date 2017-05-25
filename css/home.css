@@ -4,6 +4,11 @@ p {
     font-size: 29px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #000;
+    text-align: left;
+}
+
+p span {
+    text-align: right;
 }
 
 div {
@@ -14,9 +19,10 @@ body {
 color: #000;
 
 /*achtergrond */
-background-image: url("http://i65.tinypic.com/qzeluq.jpg");
+background-image: url("../assets/img/background.jpg"); 
 background-size: cover;
 background-repeat: no-repeat;
+
 }
 
 /* 
@@ -213,10 +219,14 @@ ul li:hover ul li {
 
 }
 
+.navigation_item a.activepage {
+    color:#EE701F;
+}
+
 /* 
 * === opmaak van middengedeelte ===
  */ 
-.sub_title_1 {
+.webdesign_voor_uw_budget {
     text-align: center;
     font-size: 60px;
     color: #FFFFFF;
@@ -259,7 +269,7 @@ h3 {
     font-size: 1.6rem;
 }
 
-#container_detail {
+#container_1 {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -268,7 +278,7 @@ h3 {
     top: 425;
 }
 
-#scroll img {
+.scroll img {
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -323,6 +333,7 @@ h3 {
     background-color: #B0B4BA;
     border-radius: 2px;
     box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
+    margin: 0 auto;
    
 }
 
@@ -333,4 +344,5 @@ h3 {
     background-color: #B0B4BA;
     border-radius: 2px;
     box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
+    margin: 0 auto;
 }

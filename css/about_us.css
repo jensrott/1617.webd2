@@ -160,7 +160,7 @@ ul li:hover ul li {
 }
 
 .dropdown-content-2 {
-
+    margin: 0 auto;
 }
 
 .navigation_item a.activepage {
@@ -186,8 +186,8 @@ span {
 }
 
 .who_what_where span {
-    border-bottom: #FFFFFF solid 3px;
     color: white;
+    border-bottom: #FFFFFF solid 3px;
     border-top: #FFFFFF solid 3px;
 }
 
@@ -200,20 +200,16 @@ span {
 
 h2 {
     text-align: left;
-    color: #778899;   
+    color: #778899;
+    font-size: 30px;
+
 }
 
-
-.crown {
-    position: relative;
-    left: 250px;
-    top: 
-}
 
 .king_text {
     position: relative;
     font-size: 50px;
-    padding-left: 150;
+    padding-left: 500px;
 }
 
 
@@ -228,11 +224,20 @@ h2 {
 }
 
 
-.the_team {
+.the_team  {
     color: #FFFFFF;
     text-align: center;
     font-size: 72px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
+}
+
+.the_team span {
+    color: #FFFFFF;
+    border-bottom: #FFFFFF solid 3px;
+    border-top: #FFFFFF solid 3px;
+    
 }
 
 

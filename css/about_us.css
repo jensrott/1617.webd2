@@ -2,7 +2,6 @@
 
 p {
     font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
     text-align: left;
     color: #000;
 }
@@ -11,9 +10,13 @@ div {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
 color: #000;
-
+font-family: 'Source Sans Pro', sans-serif;
 /*achtergrond */
 background-color: #626973;
 }
@@ -205,11 +208,19 @@ h2 {
 
 }
 
+h2 span {
+    color: #778899;
+    border-bottom: #778899 solid 1px;
+    border-top: #778899 solid 1px;
+
+}
+
 
 .king_text {
     position: relative;
     font-size: 50px;
-    padding-left: 500px;
+    padding-left: 800px;
+    
 }
 
 
@@ -243,7 +254,7 @@ h2 {
 
 .circle_left {
     
-    padding: 25px 25px 25px 25px;
+ /*   padding: 25px 25px 25px 25px;
     background-color: #626973;
     border-radius: 100px;
     width: 200px;
@@ -252,12 +263,21 @@ h2 {
     -webkit-border-radius: 100px;
     border: 2px solid black;
     box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
+    margin: 0 auto; */
+
+
+    text-align: center;
+    min-height: 240px;
+    padding: 25px 25px 25px 25px;
+    background-color: #626973;
+    border-radius: 2px;
+    box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
     margin: 0 auto;
 }
 
 
 .circle_middle {
-    padding: 25px 25px 25px 25px;
+   /* padding: 25px 25px 25px 25px;
     width:200px;
     height:200px;
     position: relative;
@@ -265,6 +285,15 @@ h2 {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     border: 2px solid black;
+    margin: 0 auto; */
+
+
+    text-align: center;
+    min-height: 240px;
+    padding: 25px 25px 25px 25px;
+    background-color: #626973;
+    border-radius: 2px;
+    box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
     margin: 0 auto;
 
 
@@ -273,7 +302,7 @@ h2 {
 }
 
 .circle_right {
-    padding: 25px 25px 25px 25px;
+  /*  padding: 25px 25px 25px 25px;
     width:200px;
     height:200px;
     position: relative;
@@ -281,8 +310,29 @@ h2 {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     border: 2px solid black;
+    margin: 0 auto; */
+
+
+    text-align: center;
+    min-height: 240px;
+    padding: 25px 25px 25px 25px;
+    background-color: #626973;
+    border-radius: 2px;
+    box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
     margin: 0 auto;
 
+}
+
+.subtitels {
+    text-align: center;
+    color: #778899
+
+}
+
+.subtitels span {
+    color: #FFFFFF; 
+    border-bottom: #FFFFFF solid 1px;
+    border-top: #FFFFFF solid 1px;
 }
 
 

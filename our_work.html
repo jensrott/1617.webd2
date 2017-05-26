@@ -32,11 +32,8 @@
     <!-- Icons -->
     <!-- http://realfavicongenerator.net/ -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="assets/icons/manifest.json">
     <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#ee9900">
-    <link rel="shortcut icon" href="assets/icons/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="GDM">
     <meta name="application-name" content="GDM">
     <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
@@ -48,61 +45,107 @@
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/our_work.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
     
-    
-    <!-- Modernizr: feature detection -->
-    <script src="vendor/modernizr/modernizr.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML5 | Webdesign II | GDM</title>
 </head>
 <body>
-     <div class="container">
+
+<div class="container">
     <nav>
         <ul class="navigation">
-            <li class="navigation_item"><a href="contact.html">Contact</a>
-
-            <div class="dropdown-menu-1">
-               <ul>
-        <li><a href="contact.html"><span class="dropdown-content-1">Contact Form</span></a></li>
-        <li><a href="contact.html"><span class="dropdown-content-2">Location</span></a></li>
-            </ul>
-            </div>
-            </li>
-
-            <li class="navigation_item"><a href="social_media.html">Social Media</a>
-
-            <div class="dropdown-menu-2">
-               <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-            </div>
-            </li>
-
+            <li class="navigation_item"><a href="contact.html">Contact</a></li>
+            <li class="navigation_item"><a href="social_media.html">Social Media</a></li>
             <li class="navigation_item"><a href="our_work.html" class="activepage">Our Work</a></li>
             <li class="navigation_item"><a href="about_us.html">About us</a></li>
             <li class="navigation_item"><a href="index.html">Home</a></li>
-                
-
         </ul>
     </nav>
 </div><!--close container-->
 
     <div class="portfolio"><span>Portfolio<span></div>
 
+    <p>We maken hoogwaardige websites en apps. Alleen het beste is goed voor ons. Met onze ervaring en<br>
+    onze passie kunt u prachtig resultaat verwachten. Onze websites werken op alle toestellen<br>
+    en scoren hoog in de Google zoekresultaten met Search Engine Optimization.<br>
+    Hieronder ziet u onze creaties. Bent u de volgende?</p>
 
-    <p></p>
+    <!--De link is naar mijn website die ik heb gemaakt in het eerste semester. 
+    De foto's zijn van bekende bedrijven. -->
 
-    <div class="container_logos">
-        <div class = "grid_row">
-            <div class="grid_project1 banner"></div>
-            <div class="grid_project1 banner1"></div>
-            <div class="grid_project1 banner2"></div>
-            <div class="grid_project1 banner3"></div>
-            <div class="grid_project1 banner4"></div>
+    <div class="container_images">
+        <h2>Websites</h2>
+        <div class="grid__container">
+            <div class="grid__row">
 
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/adidas.jpg"></a>
+              </div>
+
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/swinnen.jpg"></a>
+              </div>
+
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/mcd.jpg"></a>
+              </div>
+
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/pepsi.jpg"></a>
+            </div>
+
+            <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/nissan1.jpg"></a>
+            </div>
+
+            <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/nike.jpg"></a>
+            </div>
+
+            <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/amazon.jpg"></a>
+            </div>
+
+            <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/kellogs.jpg"></a>
+            </div>
+
+            </div>
         </div>
+    </div>
+
+    <!--De links zijn naar kleine programma's met javascript die ik heb gemaakt in de lessen van webdad. 
+    Deze hebben we gemaakt op codepen.io.-->
+
+    <div class="container_images">
+        <h2>Apps</h2>
+        <div class="grid__container">
+            <div class="grid__row">
+
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/zZrzXK"><img class="image" src="assets/img/equation.jpg"></a>
+              </div>
+
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/peVEEp"><img class="image" src="assets/img/happy_tree_friends.jpg"></a>
+              </div>
+
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/YZNGaG"><img class="image" src="assets/img/toekomstvoorspeller.jpg"></a>
+              </div>
+
+              <div class="grid__column-3">
+              <a href="https://codepen.io/jensrott/pen/MmwYOd"><img class="image" src="assets/img/Knipsel4.jpg"></a>
+            </div>
+
+            </div>
+        </div>
+     </div>
+    
+
+
 </body>
 </html>

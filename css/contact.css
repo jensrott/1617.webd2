@@ -1,3 +1,9 @@
+body {
+/*achtergrond */
+background-color: #626973;
+width: 100%;
+}
+
 p {
     font-size: 30px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -45,10 +51,7 @@ div {
     display: block;
 }
 
-body {
-/*achtergrond */
-background-color: #626973;
-}
+
 
 
 /* dit is de volledige navigatiebar */

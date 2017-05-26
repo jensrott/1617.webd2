@@ -1,29 +1,38 @@
 /* kleuren zijn in hex */
-
-p {
-    font-size: 29px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #000;
-    text-align: left;
-}
-
-p span {
-    text-align: right;
-}
-
-div {
-    display: block;
-}
-
 body {
 color: #000;
-
+width: 100%;
+height: 100%;
 /*achtergrond */
 background-image: url("../assets/img/background.jpg"); 
 background-size: cover;
 background-repeat: no-repeat;
 
+
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    padding: 0 10px;
+}
+
+p {
+    font-size: 29px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+}
+
+
+
+div {
+    display: block;
+}
+
+
 
 /* 
 * === opmaak van bovenkant header ===
@@ -116,9 +125,7 @@ float: right;
 margin-top: 0; 
 margin-right: 50px;
 margin-left: 0;
-margin-bottom: 0;
-padding:2px;  /* plaats tussen blokjes */
-text-align: ''; 
+margin-bottom: 0;  /* plaats tussen blokjes */ 
 
 }
 
@@ -133,7 +140,6 @@ margin-top: 30px;
 margin-bottom: 30px;
 font-size: 30px;
 position: relative;
-text-align: '';
 }
 
 /* als je over de knop heen gaat */ 
@@ -170,6 +176,7 @@ header {
   background: -o-linear-gradient(#535353, #000);
   background: -webkit-linear-gradient(#535353, #000);
   width: 100%;
+  height: 100%;
   background-size: cover;
   
 }
@@ -233,7 +240,7 @@ ul li:hover ul li {
    /* text-shadow: 1px 1px 1px rgba(0,0,0,0.2); */
     font-weight: 300;
     font-family: 'Source Sans Pro', "sans-serif";
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 /*
@@ -259,6 +266,7 @@ h2 {
    color: #A4AEC0;
    line-height: 1.42;
    padding-left: 20px;
+   text-align: center;
 }
 
 h3 {
@@ -346,3 +354,5 @@ h3 {
     box-shadow:  0 1px 6px rgba(0,0,0, 0.05), 0 1px 15px rgba(0,0,0, 0.10);
     margin: 0 auto;
 }
+
+

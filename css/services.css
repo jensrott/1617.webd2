@@ -16,16 +16,19 @@ p {
 
 }
 
-.text {
-   padding: 25px 25px 25px 25px;
-}
 
 
 h2 {
-    color: #FFFFFF;
+    color: #000;
     font-size: 72px;
     text-align: center;
     padding: 0 auto;
+}
+
+h2 span {
+    color: #000;
+    border-bottom: #000 solid 2px; 
+    border-top: #000 solid 2px;
 }
 
 div {
@@ -188,15 +191,13 @@ ul li:hover ul li {
 
 
  #content {
-    background-color: #D6E1F4;
-    padding-bottom: 65px; 
-    min-height: 300px;
-    padding-left: 30px;
+    background-color: #FFFFFF;
     width: 100%;
+    margin: 0 auto;
 
  }
 
-.social_media {
+.services {
     text-align: center;
     color: #FFFFFF;
     font-size: 72px;
@@ -204,7 +205,7 @@ ul li:hover ul li {
     margin-bottom: 30px;
 }
 
-.social_media span {
+.services span {
     color: #FFFFFF;
     border-bottom: #FFFFFF solid 3px;
     border-top: #FFFFFF solid 3px;
@@ -259,8 +260,21 @@ ul li:hover ul li {
     
 }
 
-.text {
-    padding: 0 10px;
+.left_box {
+    text-align: center;
+    min-height: 240px;
+    padding: 25px 25px 25px 25px; 
+    border-radius: 2px;
+    margin: 0 auto;
+   
+}
+
+.right_box {
+    text-align: center;
+    min-height: 240px;
+    padding: 25px 25px 25px 25px; 
+    border-radius: 2px;
+    margin: 0 auto;
 }
 
 
